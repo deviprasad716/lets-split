@@ -9,6 +9,13 @@ body{
     background:#F8FAFC;
 }
 
+header {
+    background: linear-gradient(
+        90deg,
+        rgba(59, 130, 246, 0.5),
+        rgba(34, 197, 94, 0.5)
+    );
+}
 .container{
     width:90%;
     max-width:1200px;
@@ -69,4 +76,50 @@ body{
 
 .join-btn:hover{
     background:#059669;
+}
+
+
+/*This is create ride page styling*/
+
+.form-container{
+    width:90%;
+    max-width:500px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-container h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#1E293B;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+form input{
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+form button{
+    background:#2563EB;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+form button:hover{
+    background:#1D4ED8;
 }
