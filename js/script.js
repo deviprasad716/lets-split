@@ -1,3 +1,5 @@
+/*This is create-ride js code*/
+
 const rideForm = document.getElementById("rideForm");
 
 if (rideForm) {
@@ -18,6 +20,23 @@ if (rideForm) {
         );
 
         rideForm.reset();
+    });
+
+}
+
+
+/*This is join-ride js code*/
+
+const searchRideForm = document.getElementById("searchRideForm");
+
+if (searchRideForm) {
+
+    searchRideForm.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        window.location.href = "rides.html";
+
     });
 
 }
