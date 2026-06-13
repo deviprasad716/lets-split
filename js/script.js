@@ -40,3 +40,18 @@ if (searchRideForm) {
     });
 
 }
+
+
+/*This is rides page code*/
+
+const joinButtons = document.querySelectorAll(".join-btn-card");
+
+joinButtons.forEach(button => {
+
+    button.addEventListener("click", function() {
+
+        alert("Ride Joined Successfully!");
+
+    });
+
+});

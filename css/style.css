@@ -25,12 +25,13 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     position:relative;
     color:#1D4ED8;
-    bottom:15px;
+    bottom:70px;
     right:150px;
 }
 .logo{
     position:relative;
     right:170px;
+    bottom:40px;
 }
 
 .hero{
@@ -88,7 +89,7 @@ header {
     background:white;
     padding:30px;
     border-radius:15px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
 
 .form-container h2{
@@ -105,7 +106,7 @@ form{
 form input{
     padding:12px;
     margin-bottom:15px;
-    border:1px solid #ccc;
+    border:1px solid #CBD5E1;
     border-radius:8px;
     font-size:16px;
 }
@@ -122,6 +123,36 @@ form button{
 
 form button:hover{
     background:#1D4ED8;
+}
+
+
+
+footer{
+    background:#1E293B;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+    margin-top:50px;
+}
+
+.footer-links{
+    margin:15px 0;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+
+.copyright{
+    margin-top:15px;
+    color:#CBD5E1;
+    font-size:14px;
 }
 
 
